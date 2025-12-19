@@ -599,6 +599,26 @@ body {
     color: var(--black);
 }
 
+.coming-soon-badge {
+    display: inline-block;
+    padding: 1.5rem 3rem;
+    background: var(--black);
+    color: var(--primary-yellow);
+    font-size: 1.25rem;
+    font-weight: 700;
+    border-radius: 12px;
+    border: 3px solid var(--black);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.coming-soon-badge:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
 .download-btn {
     display: inline-block;
     transition: transform 0.3s ease;
