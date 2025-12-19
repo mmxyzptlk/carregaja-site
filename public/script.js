@@ -40,11 +40,11 @@ window.addEventListener('scroll', () => {
     const currentScroll = window.pageYOffset;
     
     if (currentScroll > 100) {
-        navbar.style.backgroundColor = 'var(--primary-yellow)';
-        navbar.style.boxShadow = '0 4px 20px rgba(0, 0, 0, 0.3)';
+        navbar.style.backgroundColor = 'var(--white)';
+        navbar.style.boxShadow = '0 2px 10px rgba(0, 0, 0, 0.15)';
     } else {
-        navbar.style.backgroundColor = 'var(--primary-yellow)';
-        navbar.style.boxShadow = '0 4px 20px rgba(0, 0, 0, 0.2)';
+        navbar.style.backgroundColor = 'var(--white)';
+        navbar.style.boxShadow = '0 2px 10px rgba(0, 0, 0, 0.1)';
     }
     
     lastScroll = currentScroll;
